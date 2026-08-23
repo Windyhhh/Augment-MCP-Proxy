@@ -1,0 +1,24 @@
+{
+  "name": "augment-mcp-proxy",
+  "version": "1.0.0",
+  "description": "MCP 代理服务器 - 将第三方 Anthropic API 接入 Augment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "powershell -ExecutionPolicy Bypass -File ./test-api.ps1"
+  },
+  "keywords": [
+    "mcp",
+    "augment",
+    "anthropic",
+    "claude",
+    "proxy"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1"
+  }
+}
