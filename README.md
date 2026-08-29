@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔧 Augment-MCP-Proxy
+# Augment MCP 代理 | Augment-MCP-Proxy
 
 ### Use a third-party Anthropic API inside Augment.
 
